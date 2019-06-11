@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+	.clear{
+		clear: both;
+	}
+	ul,li{
+
+		list-style-type: none;
+	}
+	header img{
+		float: right;
+	}
+nav {
+	background-color: #494949;
+	 
+}
+.dropdown{
+	display:inline-block;
+	background-color: #494949;
+	color: white;
+	width:345px;
+	padding: 15px;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+.dropdown:hover { 
+	color: #49ff4d; 
+	
+ }
+.dropdownContents{
+	display:none;
+	background-color: black;
+	width: 381px;
+	height: 140px;
+	margin-top: 10px;
+	position: relative;
+	left:-18px;
+	
+
+}
+.dropdownContents li{
+	padding-top: 10px;
+
+}
+nav:hover .dropdownContents{
+	display:block;
+
+}
+.dropdownContents a{
+	text-decoration: none;
+	color: white;
+	
+
+}
+.dropdownContents a:hover{
+	color:magenta;
+}
+		
+	section{
+		background-color: #494949;
+		width: auto;
+		height: 800PX;
+	
+	}
+	header{
+		background-color: white;
+		width: 1519px;
+		height: 50px;
+	}
+	header a{
+		
+		position: absolute;
+		top: 15px;
+		left: 680px;
+		color: black;
+		text-decoration: none;
+
+
+	}
+	
+	
+	#title1{
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		margin-top: 80px;
+		margin-left: 350px;
+		float: left;
+		width: 100px;
+		height: 30px;
+		border: double; 2px white;
+	}
+
+	
+	
+	footer{
+		
+		background-color: white;
+		width:1520px;
+		height: 50px;
+	float: left;
+		
+	}
+	table{
+	margin-top: 50px;
+	margin-left: 280px;
+	width: 70%;
+	height: 400px;
+	border: white 3px solid;
+	border-collapse: collapse;
+}
+td{
+	padding: 5px 10px;
+	border:white 3px solid;
+	background-color: ;
+
+}
+th{
+	text-align: center;
+	color: white;
+	width:10em;
+	background-color: #444444;
+	
+}
+textarea{
+	width: 600px;
+	height: 200px;
+	padding: 5px;
+	border: #ccc 1px solid;
+	background-color:#444444;
+}
+textarea:focus{
+	background-color: white;
+}
+input[type="text"]
+{
+	width:400px;
+	padding: 5px;
+	border:#ccc 1px dotted;
+	background-color: #444444;
+}
+input[type="radio"],
+input[type="checkbox"],
+input[type="reset"],
+input[type="submit"]
+{
+	cursor: pointer;
+}
+input:focus
+{
+	background-color: white;
+}
+.btn{
+	width: 100px;
+	margin:0 10px;
+	padding: 10px;
+	border:none;
+	font-size: 16px;
+}
+.btns
+{
+	margin: 50px;
+	margin-left: 650px;
+}
+.btn:hover{
+	opacity: 0.5;
+}
+.btn:active{
+	color:red;
+}
+.btn-clear {
+	background-color: #444444;
+	color: white;
+	border: #49ff4d solid 2px;
+}
+.btn-send {
+	background-color: #444444;
+	color: white;
+	border: magenta solid 2px;}
+
+
+
+
+</style>
+</head>
+<body>
+<header>
+	<img src="./img/funktimerogo4.jpg" width="100px">
+	<img src="./img/funktimerogo3.jpg" width="50px" >
+	<b>
+	<a href="index.html">
+	ENJOY WITH FUNKTIME</a>
+	</b>
+</header>
+<nav>
+<div class="dropdown">
+<ul>FUNKTIME 
+	<div class="dropdownContents">
+	<li><a href="FUNKTIME_menu.html#title1">History</a></li>
+	<li><a href="FUNKTIME_menu.html#title2">Vol.4</a></li>
+	<li><a href="FUNKTIME_menu.html#title3">Video</a></li>
+</div>
+  </div>
+</ul>
+
+<div class="dropdown">
+<ul>FUNKTIME CREW 
+	<div class="dropdownContents">
+	<li><a href="CREW_menu.html#title1">ANN</a></li>
+	<li><a href="CREW_menu.html#title2">LOCKMILE</a></li>
+</div></div>
+</ul>
+<div class="dropdown">
+<ul>FUNKTIME APPLY
+		<div class="dropdownContents">
+		<li><a href="#title1">Apply</a></li>
+  </div></div>
+</ul>
+<div class="dropdown">
+<ul>FAQ
+		<div class="dropdownContents">
+				<li><a href="FAQ_menu.html">FAQ</a></li>
+		</div>
+  </div>
+</ul>
+</nav>
+<section>
+<div id="title1">APPLY</div>
+<div class="clear"></div>
+<form>
+<table border="2">
+	<tr>
+		<th>이름: </th>
+		<td><input type="text" ></td>
+	</tr>
+	<tr>
+		<th> battle : </th>
+		<td> <input type="radio" name="type" checked=""> <b>1 on 1 </b><input type="radio" name="type"> <b>4 on 4 </b></td>
+	</tr>
+		<tr>
+		<th>+팀명 : </th>
+		<td><input type="text" placeholder="4 on 4 참가자분들만 적어주세요."></td>
+	</tr>
+		<tr>
+		<th>+대표자 연락처 : </th>
+		<td><input type="text" placeholder="4 on 4 참가자분들만 적어주세요." ></td>
+	</tr>
+	<tr>
+		<th>입금자명 : </th>
+		<td><input type="text" ></td>
+	</tr>
+	<tr>
+	<tr>
+		<th>코멘트: </th>
+		<td><textarea></textarea></td>
+	</tr>
+</table>
+<div class="btns">
+<input type="reset" value="지우기" class="btn btn-clear">
+<input type="submit" value="제출" class="btn btn-send">
+</div>
+</section>
+<div class="clear"></div>
+<footer>
+	
+</footer>
+
+</body>
+</html>
