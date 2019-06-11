@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+
+		}
+	.clear{
+		clear: both;
+	}
+	ul,li{
+		list-style-type: none;
+	}
+	header img{
+		float: right;
+	}
+	.menu{	
+		box-sizing: border-box;
+				width: 120px;
+				height: 100px;
+		position: absolute;
+		top: 80px;
+		left: 15px;
+		padding-top: 10px;
+		padding-left: 5px;
+		border: solid 3px white;
+		transition: all ease 2s 0s;
+		
+	}
+
+.menu:hover{
+				border: solid #d63ad4 5px;
+				box-shadow: 5px 5px 5px;
+				background-color: #d63ad4;
+				width: 400px;
+				height: 700px;
+
+}
+
+.dropdown {
+	display:none;
+	width:10px;
+	padding: 30px 15px 30px 15px;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 10px;
+	
+		
+}
+.dropdown a{
+	color:white;
+	text-decoration: none;
+}
+.menu:hover .dropdown{
+	display: block;
+
+}
+.dropdown:hover { 
+	color: #49ff4d; 
+	background-color: black; 
+	transition: all ease 2s 0s;
+	width:350px;
+ }
+ .dropdown a:hover{
+ 	color: #49ff4d; 
+ }
+
+.dropdownContents{
+	display:none;
+	background-color: black;
+	width: 250px;
+	position:absolute;
+	padding: 13px 16px;
+	left: 300px;
+	
+
+}
+.dropdown:hover .dropdownContents{
+	display:block;
+
+}
+.dropdownContents li{
+	color: white;
+	padding: 8px;
+	border-bottom: solid 1px white;
+	
+}
+.dropdownContents li:hover{
+	opacity: 0.5;
+}
+	
+		
+	section{
+		background-image: url("./img/background1.jpg");
+		background-size: 100% 1100px;
+		background-repeat: no-repeat;
+		width: auto;
+		height: 800px;
+	}
+	header{
+		background-color: white;
+		width: 1519px;
+		height: 50px;
+	}
+	header b{
+		
+		position: absolute;
+		top: 15px;
+		left: 680px;
+
+
+	}
+	
+	footer{
+		
+		background-color: white;
+		width:1520px;
+		height: 30px;
+		position: absolute;
+		top: 850px;
+
+		
+	}
+
+	#link1 {
+		float: right;
+		margin-right: 10px;
+	}
+	#link2 {
+		float: right;
+	}
+	#link3 {
+		float: right;
+	}
+
+#page{
+	width: auto;
+	margin: auto;
+
+	
+}
+
+
+
+</style>
+</head>
+<body>
+<div id="page">
+<header>
+	<img src="./img/funktimerogo4.jpg" width="100px">
+	<img src="./img/funktimerogo3.jpg" width="50px" >
+	<b>
+	ENJOY WITH FUNKTIME
+	</b>
+</header>
+<section>
+<div class="clear"></div>
+<div class="menu">
+		<img src='./img/menu.PNG' width="100px">
+	
+<div class="dropdown">
+<ul><a href="FUNKTIME_menu.html">FUNKTIME</a> 
+  </div>
+</ul>
+<div class="dropdown">
+<ul><a href="CREW_menu.html">CREW </a>
+	</div>
+</ul>
+<div class="dropdown">
+<ul><a href="APPLY_menu.html">APPLY</a>
+  </div>
+</ul>
+<div class="dropdown">
+<ul><a href="FAQ_menu.html">FAQ</a>
+  </div>
+</ul>
+</section>
+<footer>
+	<div id="link1"><a href="https://www.instagram.com/funktimecrew/?hl=ko"><img src="./img/instagram.jpg" width="50px"></a></div>
+	<div id="link2"><a href="https://www.facebook.com/funktimekorea/?epa=SEARCH_BOX"><img src="./img/facebook.jpg" width="50px"></a></div>
+	<div id="link3"><a href="https://www.youtube.com/channel/UCUaNo5fCqNEjwUufIjZm2Fg"><img src="./img/youtube.jpg" width="50px"></a></div>
+</footer>
+</div>
+</body>
+</html>
